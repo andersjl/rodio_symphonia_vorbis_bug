@@ -10,13 +10,4 @@ fn main() -> Result<(), Box<dyn Error>> {
     sink.sleep_until_end();
 
     Ok(())
-    /*
-    let (_stream, stream_handle) = rodio::OutputStream::try_default()?;
-    let sink = rodio::Sink::try_new(&stream_handle)?;
-    let file = std::fs::File::open("test.ogg")?;
-    let source = rodio::Decoder::new(std::io::BufReader::new(file))?;
-    sink.append(source);
-    sink.sleep_until_end();
-    Ok(())
-    */
 }

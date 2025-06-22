@@ -5,5 +5,5 @@ name = "rodio_symphonia_vorbis_bug"
 version = "0.1.0"
 
 [dependencies]
-rodio = { git = "https://github.com/RustAudio/rodio.git", features = [ "symphonia-vorbis" ] }
-#rodio = { git = "https://github.com/RustAudio/rodio.git" }
+#rodio = { git = "https://github.com/RustAudio/rodio.git", features = [ "symphonia-vorbis" ] }
+rodio = { git = "https://github.com/RustAudio/rodio.git" }
